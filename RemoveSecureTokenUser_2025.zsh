@@ -247,7 +247,6 @@ echo "======================================================================"
 
 # Get  the Management ID by reading the configProfile assigned to computer
 client_management_id=$(defaults read /Library/Managed\ Preferences/ch.las.ManagementID ManagementID)
-#echo "CLIENT MANAGEMENT ID: $client_management_id"
 
 # Get JamfPro API Token
 checkTokenExpiration
